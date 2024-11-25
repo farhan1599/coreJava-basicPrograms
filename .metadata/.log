@@ -172,3 +172,476 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-19 14:38:18.535
 !MESSAGE Classpath changed for project: temperatureConversion
+!SESSION 2024-11-25 12:27:17.470 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data E:\coreJava-BasicPrograms
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 12:27:28.284
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 12:27:28.284
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 12:27:29.252
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 12:27:29.252
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-11-25 12:27:32.555
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-25 12:27:38.968
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.22.0\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=E:/coreJava-BasicPrograms/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1732517858966
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:27:38.970
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-25 12:27:39.016
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 804
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-25 12:27:43.812
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:31:35.023
+!MESSAGE Classpath changed for project: ReflectionAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:34:52.573
+!MESSAGE Classpath changed for project: Java-ReflectionAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:34:52.592
+!MESSAGE Classpath changed for project: ReflectionAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-11-25 12:34:52.909
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): ReflectionAPI does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-25 12:34:52.911
+!MESSAGE ReflectionAPI does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:35:08.202
+!MESSAGE Classpath changed for project: Java-ReflectionAPI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-11-25 12:35:08.267
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Java-ReflectionAPI does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-25 12:35:08.268
+!MESSAGE Java-ReflectionAPI does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:35:40.631
+!MESSAGE Classpath changed for project: Java-ReflectonAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:36:13.429
+!MESSAGE Classpath changed for project: Java-ReflectonAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:36:32.016
+!MESSAGE Classpath changed for project: Reflection
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:37:06.601
+!MESSAGE Classpath changed for project: Reflection
+!SESSION 2024-11-25 12:37:42.128 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 12:37:57.847
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 12:37:57.848
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 12:37:58.718
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 12:37:58.718
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-11-25 12:38:01.767
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-25 12:38:07.759
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:39:06.986
+!MESSAGE Classpath changed for project: Java-Reflection
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-25 12:41:15.990
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.22.0\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=E:/coreJava-BasicPrograms/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1732518675989
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 12:41:15.991
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-25 12:41:16.007
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8700
+!SESSION 2024-11-25 14:42:38.938 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 14:43:54.198
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 14:43:54.198
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 14:43:55.119
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 14:43:55.119
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-11-25 14:43:58.107
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-25 14:44:04.512
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.22.0\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=E:/coreJava-BasicPrograms/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1732526044496
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 14:44:04.512
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-25 14:44:04.543
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11244
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-25 14:44:08.402
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 14:45:18.429
+!MESSAGE Classpath changed for project: k
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 14:45:34.798
+!MESSAGE Classpath changed for project: Java-Reflection
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-11-25 14:45:34.871
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Java-Reflection does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-25 14:45:34.876
+!MESSAGE Java-Reflection does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 14:45:39.863
+!MESSAGE Classpath changed for project: k
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 14:49:03.902
+!MESSAGE Classpath changed for project: Java-Reflection
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 14:49:23.049
+!MESSAGE Classpath changed for project: Java-Reflection
+!SESSION 2024-11-25 14:58:26.209 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data E:\coreJava-BasicPrograms
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 14:58:36.082
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 14:58:36.082
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 14:58:36.971
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 14:58:36.971
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-11-25 14:58:39.880
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-25 14:58:45.860
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 14:59:40.964
+!MESSAGE Classpath changed for project: ok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:00:17.830
+!MESSAGE Classpath changed for project: ok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:00:29.788
+!MESSAGE Classpath changed for project: ok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:00:59.105
+!MESSAGE Classpath changed for project: ok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.188
+!MESSAGE Classpath changed for project: EMI_Calculator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.189
+!MESSAGE Classpath changed for project: GreatestOfThreeNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.190
+!MESSAGE Classpath changed for project: If_else_example
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.190
+!MESSAGE Classpath changed for project: PalindromeNumber
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.191
+!MESSAGE Classpath changed for project: Power
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.192
+!MESSAGE Classpath changed for project: PrimeNumber
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.193
+!MESSAGE Classpath changed for project: PrintingTable
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.193
+!MESSAGE Classpath changed for project: SimpleInterest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.194
+!MESSAGE Classpath changed for project: SwapTwoNumbers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:40.196
+!MESSAGE Classpath changed for project: temperatureConversion
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:43.647
+!MESSAGE Classpath changed for project: EMI_Calculator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:49.447
+!MESSAGE Classpath changed for project: GreatestOfThreeNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:52.380
+!MESSAGE Classpath changed for project: PalindromeNumber
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:54.959
+!MESSAGE Classpath changed for project: Power
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:56.290
+!MESSAGE Classpath changed for project: PrimeNumber
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:57.757
+!MESSAGE Classpath changed for project: PrintingTable
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:01:59.004
+!MESSAGE Classpath changed for project: SimpleInterest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:02:00.200
+!MESSAGE Classpath changed for project: SwapTwoNumbers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:02:01.488
+!MESSAGE Classpath changed for project: temperatureConversion
+!SESSION 2024-11-25 15:02:24.038 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data E:\coreJava-BasicPrograms
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 15:02:35.899
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 15:02:35.899
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 15:02:36.819
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 15:02:36.819
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-11-25 15:02:39.699
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-25 15:02:45.558
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:03:01.397
+!MESSAGE Classpath changed for project: If_else_example
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-11-25 15:20:46.158
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2024-11-25 15:20:46.178
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-11-25 15:20:46.179
+!MESSAGE The project description file (.project) for 'ok' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-11-25 15:20:47.727
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-11-25 15:20:49.263 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data E:\coreJava-BasicPrograms
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-11-25 15:20:57.130
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 15:20:59.793
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 15:20:59.793
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-11-25 15:21:00.730
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-11-25 15:21:00.730
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-11-25 15:21:03.693
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-11-25 15:21:10.246
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\DELL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.928
+!MESSAGE Classpath changed for project: ok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.929
+!MESSAGE Classpath changed for project: EMI_Calculator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.931
+!MESSAGE Classpath changed for project: GreatestOfThreeNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.932
+!MESSAGE Classpath changed for project: If_else_example
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.933
+!MESSAGE Classpath changed for project: PalindromeNumber
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.934
+!MESSAGE Classpath changed for project: Power
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.935
+!MESSAGE Classpath changed for project: PrimeNumber
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.936
+!MESSAGE Classpath changed for project: PrintingTable
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.937
+!MESSAGE Classpath changed for project: SimpleInterest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.938
+!MESSAGE Classpath changed for project: SwapTwoNumbers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:21:11.938
+!MESSAGE Classpath changed for project: temperatureConversion
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:29:24.399
+!MESSAGE Classpath changed for project: ok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:29:35.574
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-25 15:29:53.572
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.22.0\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\sts-4.22.0\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=E:/coreJava-BasicPrograms/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1732528793571
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-11-25 15:29:53.573
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-11-25 15:29:53.588
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2044

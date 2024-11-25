@@ -1,5 +1,6 @@
 package demo.user;
 
+
 public class User {
 	private Integer age=10;
 	

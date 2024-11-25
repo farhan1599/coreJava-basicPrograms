@@ -4,6 +4,9 @@ import java.lang.reflect.Field;
 
 import demo.user.User;
 
+
+//setting value and accessing the private variable of "User class" without setter method
+
 public class Test {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws Exception {
